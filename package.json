@@ -1,0 +1,30 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "an amaizeng app ",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "flashcards",
+    "study",
+    "testing",
+    "cards",
+    "learning",
+    "javascript"
+  ],
+  "author": "MasarraNubani",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "cypress": "^14.5.1",
+    "eslint": "^9.30.1",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^11.7.1",
+    "parcel": "^2.15.4",
+    "prettier": "^3.6.2"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Night</title>
+  <!-- روابط CSS (يجب أن يكون الاسم كما هو في مجلد styles) -->
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/flipcard.css">
+  <link rel="stylesheet" href="styles/navigationMenu.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+  <header>
+    <h1 data-cy="header">Study Night</h1>
+    <nav aria-label="Main Navigation Menu" class="primary_nav_bar">
+      <ul>
+        <li id="homePage">Home</li>
+        <li id="aboutPage">About</li>
+        <li id="cardSetPage">Card Sets</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- صفحة البداية (home) تظهر عند فتح الموقع -->
+    <div class="homeContainer">
+      <h1>Study Night</h1>
+      <h2>Welcome to the best flashcard tool!</h2>
+      <!-- الصورة لازم تكون موجودة بمجلد images -->
+      <img src="images/aboutImage.png" alt="Study illustration" />
+    </div>
+  </main>
+
+  <!-- سكربتات الجافاسكريبت -->
+  <script type="module" src="src/utilityRenderFunctions.js"></script>
+  <script type="module" src="data/data.js"></script>
+  <script type="module" src="src/index.js"></script>
+</body>
+</html>
